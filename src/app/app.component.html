@@ -1,0 +1,19 @@
+<!-- commented after routing was added -->
+<!-- <app-header (featureEmitter) = "navigateTo($event)"></app-header> -->
+
+<app-header></app-header>
+
+<div class="container">
+  <div class="row">
+    <div class="col-xs-12">
+
+    <!-- commented after routing was added -->
+    <!-- <app-recipes *ngIf = "selectedFeature === 'recipe'"></app-recipes>
+    <app-shopping-list *ngIf = "selectedFeature != 'recipe'"></app-shopping-list> -->
+
+    <router-outlet></router-outlet>
+
+    </div>
+  </div>
+</div>
+
