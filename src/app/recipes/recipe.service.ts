@@ -19,23 +19,23 @@ export class RecipeService {
   // recipeSelected = new EventEmitter<Recipe>();
   recipeSelected = new Subject<Recipe>();
 
-  private recipes: Recipe[] = [
-    new Recipe(
-      'a test recipe', 
-      'this is a test recipe', 
-      'https://pixabay.com/static/img/logo_square.png',
-      [new Ingredient("Potatoes", 10), new Ingredient("Tomatoes", 20)]
-    ),
-    new Recipe(
-      'a test recipe', 
-      'this is a test recipe', 
-      'https://pixabay.com/static/img/logo_square.png',
-      [new Ingredient("Potatoes", 10), new Ingredient("Tomatoes", 20)]
-    )
+  // private recipes: Recipe[] = [
+  //   new Recipe(
+  //     'a test recipe', 
+  //     'this is a test recipe', 
+  //     'https://pixabay.com/static/img/logo_square.png',
+  //     [new Ingredient("Potatoes", 10), new Ingredient("Tomatoes", 20)]
+  //   ),
+  //   new Recipe(
+  //     'a test recipe', 
+  //     'this is a test recipe', 
+  //     'https://pixabay.com/static/img/logo_square.png',
+  //     [new Ingredient("Potatoes", 10), new Ingredient("Tomatoes", 20)]
+  //   )
     
-  ];
+  // ];
 
-  // private recipes: Recipe[] = [];
+  private recipes: Recipe[] = [];
   
 
   getRecipes() {

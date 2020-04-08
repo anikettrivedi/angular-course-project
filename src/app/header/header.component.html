@@ -19,7 +19,7 @@
 
             <div class="nav navbar-nav navbar-right" *ngIf = "isAuthenticated">
                 <li>
-                    <a style="cursor: pointer;" routerLink="">Logout</a>
+                    <a style="cursor: pointer;" (click)="onLogout()">Logout</a>
                 </li>
 
                 <li class="dropdown"

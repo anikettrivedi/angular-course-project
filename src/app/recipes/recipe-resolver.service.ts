@@ -17,10 +17,10 @@ import { RecipeService } from './recipe.service';
 
 export class RecipeResolverService implements Resolve<Recipe[]> {
 
-    constructor(private dataStorageService : DataStorageService,
-                private recipeService : RecipeService){
-
-    }
+    constructor(
+        private dataStorageService : DataStorageService,
+        private recipeService : RecipeService
+        ){}
 
     resolve(route: ActivatedRouteSnapshot, state: RouterStateSnapshot){
         
